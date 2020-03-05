@@ -1,15 +1,15 @@
 #footer {
-    background: $color_green;
-    padding: 1%;
-    font-size: 100%;
-    width: 98%;
-    position: absolute;
-    bottom: 0px;
-        .footer_title {
-            display: flex;
-            justify-content: space-between;
-            }
-                h3 {
-                    color: $color_yellow;
-                }
+  background: $color_green;
+  padding: 1%;
+  font-size: 100%;
+  width: 98%;
+  position: absolute;
+  bottom: 0px;
+  .footer_title {
+    display: flex;
+    justify-content: space-between;
+  }
+  h3 {
+    color: $color_yellow;
+  }
 }
