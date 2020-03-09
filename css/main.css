@@ -48,21 +48,10 @@ html, body {
   color: #f9a825;
 }
 
-.button_soon {
-  text-align: center;
-  margin-top: 37%;
-  margin-left: 44%;
-  margin-right: 44%;
-  padding-top: 0.6%;
-  padding-bottom: 0.6%;
-  border-radius: 10px;
-  background: #418f84;
-}
-.button_soon .soon {
-  display: flex;
-  justify-content: center;
-  color: #f9a825;
-  font-size: 150%;
+#menu_recipe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
