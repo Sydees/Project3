@@ -49,9 +49,37 @@ html, body {
 }
 
 #menu_recipe {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#menu_recipe .la_note_enchantee,
+#menu_recipe .le_chic_a_la_francaise,
+#menu_recipe .le_delice_des_papilles,
+#menu_recipe .la_palette_du_gout {
+  border: 0.5px solid black;
+  height: 22em;
+  width: 15em;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_soon {
+  margin-top: 16%;
+  margin-left: 44%;
+  margin-right: 44%;
+  padding-top: 0.6%;
+  padding-bottom: 0.6%;
+  border-radius: 10px;
+  background: #418f84;
+}
+.button_soon .soon {
+  text-align: center;
+  color: #f9a825;
+  font-size: 150%;
 }
 
 /*# sourceMappingURL=main.css.map */

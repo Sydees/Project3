@@ -1,5 +1,18 @@
 #menu_recipe {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .la_note_enchantee,
+  .le_chic_a_la_francaise,
+  .le_delice_des_papilles,
+  .la_palette_du_gout {
+    border: 0.5px solid black;
+    height: 22em;
+    width: 15em;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
